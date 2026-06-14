@@ -1,10 +1,22 @@
-*.class
+# IntelliJ
+
+.idea/
 *.iml
 
-/out/
-/.idea/
+# Java
+
+*.class
+
+# Build directories
+
+out/
+
+# ANTLR generated files
 
 *.interp
 *.tokens
 
-gen/
+# OS files
+
+.DS_Store
+Thumbs.db
